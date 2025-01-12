@@ -1,0 +1,21 @@
+.login-card {
+    width: 400px;
+    // height: 500px;
+    // border-radius: 8px;
+    box-shadow: 10px 10px 20px #c4c4c4,
+        -10px -10px 20px #ffffff;
+
+    .form-divider {
+        color: #7c7d7f;
+
+        &-line {
+            width: 41%;
+            height: 1px;
+            background-color: #c0c3c6;
+        }
+    }
+
+    .signin-step-2 {
+        display: none !important;
+    }
+}

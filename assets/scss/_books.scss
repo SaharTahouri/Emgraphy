@@ -1,0 +1,9 @@
+.card {
+    &-text {
+        text-align: justify;
+
+        @media (max-width: 767.9px) {
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+  "portfolio": [
+    "assets/videos/portfolio/edit-video-1.mp4",
+    "assets/images/portfolio/post-cover-1.jpg",
+    "assets/images/portfolio/story-banner-7.png",
+    "assets/videos/portfolio/edit-video-2.mp4",
+    "assets/images/portfolio/post-cover-5.jpg",
+    "assets/images/portfolio/product-cover-1.jpg",
+    "assets/videos/portfolio/story-motion-3.mp4",
+    "assets/images/portfolio/post-cover-6.png",
+    "assets/images/portfolio/story-banner-1.jpg",
+    "assets/videos/portfolio/story-motion-2.mp4",
+    "assets/images/portfolio/product-cover-2.jpg",
+    "assets/images/portfolio/post-cover-2.jpg",
+    "assets/images/portfolio/post-cover-3.jpg",
+    "assets/images/portfolio/post-cover-7.jpg",
+    "assets/videos/portfolio/story-motion-4.mp4",
+    "assets/videos/portfolio/story-motion-1.mp4",
+    "assets/images/portfolio/story-banner-2.jpg",
+    "assets/images/portfolio/post-cover-8.jpg",
+    "assets/images/portfolio/story-banner-3.jpg",
+    "assets/images/portfolio/story-banner-6.png",
+    "assets/videos/portfolio/edit-video-5.mp4",
+    "assets/images/portfolio/post-cover-9.jpg",
+    "assets/images/portfolio/story-banner-5.jpg",
+    "assets/videos/portfolio/edit-video-6.mp4",
+    "assets/images/portfolio/story-banner-8.jpg",
+    "assets/images/portfolio/post-cover-4.jpg",
+    "assets/videos/portfolio/page-design.mp4",
+    "assets/images/portfolio/story-banner-4.jpg",
+    "assets/images/portfolio/product-cover-3.jpg",
+    "assets/videos/portfolio/edit-video-7.mp4"
+  ],
+  "courses": {
+    "reels-cover": {
+      "title": "آموزش ساخت کاور ریلز در پیکسلب",
+      "description": "مزیت طراحی کاور ریلز در پیکسلب این است که کاور شما در این برنامه به صورت لایه plp ذخیره می‌شود و برای ساخت کاور ریلز جدید کار شما راحت‌تر شده و فقط عکس و متن را ویرایش می‌کنید.",
+      "sessions": [
+        "../assets/reels-cover-course/session-1.mp4",
+        "../assets/reels-cover-course/session-2.mp4",
+        "../assets/reels-cover-course/session-3.mp4",
+        "../assets/reels-cover-course/session-4.mp4",
+        "../assets/reels-cover-course/session-5.mp4"
+      ],
+      "price": ["رایگان"]
+    },
+    "reels-cover-template": {
+      "title": "آموزش استفاده از قالب پست آماده در پیکسلب",
+      "description": "این آموزش بسیار کاربردی است و کار شما را برای کاور پست بسیار راحت کرده و در وقت شما صرفه‌جویی می‌شود.",
+      "sessions": ["../assets/use-reels-cover-template-course/session-1.mp4"],
+      "attachments": ["../assets/use-reels-cover-template-course/template.png"],
+      "price": ["رایگان"]
+    },
+    "set-cover-size": {
+      "title": "آموزش تنظیم سایز کاور پست",
+      "description": "اگر سایز کاور پست را به درستی تنظیم نکنید، عکس و متن کاور در صفحه اینستاگرام به صورت کامل نمایش داده نمی‌شود. احتمالاً در صفحه اصلی برخی از پیج های اینستاگرام مواردی را مشاهده کردید که یک عکس کامل نیست یا متنی نیمه نمایش داده شده است. تنها علت آن، تنظیم نبودن کاور ریلز یا پست می‌باشد که ما این مشکل را با یک آموزش بسیار ساده برای همیشه حل کردیم.",
+      "sessions": ["../assets/set-cover-size-course/session-1.mp4"],
+      "attachments": ["../assets/set-cover-size-course/1×1.jpg"],
+      "price": ["رایگان"]
+    },
+    "story-banner": {
+      "title": "آموزش ساخت بنر استوری کفش",
+      "description": "می‌توانیم بگوییم با این آموزش شما علاوه بر آموزش طراحی یک بنر استوری، یک آشنایی بسیار خوب با برنامه پیکسلب پیدا می‌کنید که به صورت رایگان در جایی دسترس نمی‌باشد. ولی امگرافی این امکان را برای افرادی که توان هزینه کردن برای آموزش ندارند را فراهم کرده تا شما هم بتوانید با این آموزش‌های مفید، کسب درآمد خود را شروع کنید.",
+      "sessions": ["../assets/story-banner-course/session-1.mp4"],
+      "attachments": ["../assets/story-banner-course/ready-banner.jpg"],
+      "price": ["رایگان"]
+    }
+  }
+}

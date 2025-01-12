@@ -1,0 +1,122 @@
+.nav-link {
+    &.active {
+        text-shadow: 0 -2px 0 rgba(255, 255, 255, .8), 0 0 2px rgba(0, 0, 0, .8);
+    }
+
+    &:hover {
+        text-shadow: 0 -2px 0 rgba(255, 255, 255, .8), 0 0 2px rgba(0, 0, 0, .8);
+    }
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
+}
+
+.login-btn-mobile,
+.dropdown {
+    padding: .1rem;
+
+    @media (max-width: 767.9px) {
+        display: inline-block !important;
+    }
+
+    .dropdown-toggle {
+        padding: .35rem .1rem !important;
+    }
+}
+
+.login-btn-desktop {
+    @media (max-width: 767.9px) {
+        display: none !important;
+    }
+}
+
+#burger-toggler {
+    top: 1rem;
+    left: 12px;
+    width: 42px;
+    height: 42px;
+
+    &:checked~.navbar-toggler .navbar-burger-icon .burger-line:first-of-type {
+        position: absolute;
+        top: 20px;
+        margin: 0;
+        transform: rotateZ(52deg);
+    }
+
+    &:checked~.navbar-toggler .navbar-burger-icon .burger-line:nth-of-type(2) {
+        display: none;
+    }
+
+    &:checked~.navbar-toggler .navbar-burger-icon .burger-line:last-of-type {
+        transform: rotateZ(-50deg);
+    }
+}
+
+.navbar {
+    &-brand {
+        img {
+            width: 50px;
+        }
+    }
+
+    &-toggler {
+        width: 45px;
+        height: 45px;
+        padding: .1rem;
+
+        .navbar-burger-icon {
+            padding: .8rem .6rem;
+        }
+
+        .burger-line {
+            display: block;
+            width: 25px;
+            height: 3px;
+            border-radius: 2px;
+            background-color: $color-dark-gray;
+            transition: all .5s ease-in-out;
+
+            &:first-of-type,
+            &:nth-of-type(2) {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575.5px) {
+    .btn-order {
+        width: 90%;
+    }
+}
+
+.form-control {
+    border: none;
+    box-shadow: -3px -3px 4px 0 rgba($color-white, 1),
+        2px 2px 4px 0 rgba(#000, .1);
+
+    &:focus {
+        box-shadow: inset -3px -3px 3px 0 rgba($color-white, 1),
+            inset 2px 2px 3px 0 rgba(#000, .5);
+    }
+}
+
+#gotop {
+    bottom: 30px;
+    left: 30px;
+    box-shadow: 2px 2px 4px 0 rgba(#000, .1);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.show-gotop {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.main-404 {
+    h1 {
+        color: $color-purple;
+    }
+}

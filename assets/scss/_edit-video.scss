@@ -1,0 +1,79 @@
+.intro {
+    &-title {
+        h1 {
+            color: $color-purple
+        }
+    }
+
+    &-text {
+        p {
+            text-align: justify;
+
+            @media (max-width: 576px) {
+                text-align: center;
+            }
+        }
+    }
+
+    &-img {
+
+        video,
+        img {
+            max-width: 250px;
+        }
+    }
+}
+
+.service-cards-container {
+    .service-cards {
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .card {
+            // width: 30%;
+            flex: .01 1 30%;
+            background-color: $color-white;
+            box-shadow: -3px -3px 4px 0 rgba(245, 245, 245, 0.8),
+                3px 3px 4px 0 rgba(0, 0, 0, 0.1);
+            transition: background .3s ease-in-out, color .3s ease-in-out;
+            cursor: cell;
+
+            &:hover {
+                color: $color-white;
+                background-color: $color-purple-hover;
+            }
+
+            @media (max-width: 768px) {
+                flex: 1 1 49%;
+            }
+
+            @media (max-width: 576px) {
+                flex: 1 1 98%;
+            }
+        }
+    }
+}
+
+.order {
+    display: none !important;
+    overflow: hidden;
+    animation: order-slide-down .5s ease-in-out;
+
+    @keyframes order-slide-down {
+        from {
+            max-height: 0;
+        }
+
+        to {
+            max-height: 626px;
+        }
+    }
+
+    h3 {
+        color: $color-purple;
+    }
+
+    select {
+        width: 35%;
+    }
+}
