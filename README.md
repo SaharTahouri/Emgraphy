@@ -21,7 +21,7 @@ Welcome to the **emgraphy.ir** repository! This project represents the official 
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS (Bootstrap/SASS), JavaScript
+- **Frontend**: HTML, CSS (Bootstrap/SASS), JavaScript, JSON
 - **Backend**: PHP
 - **Database**: MySQL
 
@@ -35,7 +35,7 @@ For questions, feedback, or support, feel free to reach out:
 
 - **Website**: [https://emgraphy.ir](https://emgraphy.ir)
 - **Email**: emgraaphy@gmail.com
-- **GitHub**: [Your GitHub Profile](https://github.com/SaharTahouri)
+- **GitHub**: [Sahar Tahouri](https://github.com/SaharTahouri)
 
 ---
 
